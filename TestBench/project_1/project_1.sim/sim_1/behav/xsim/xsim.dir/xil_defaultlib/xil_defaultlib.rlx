@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.srcs/sim_1/new/tb_imageControl3.v,1723393199,verilog,,,,tb_imageControl3,,,,,,,,
+C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.srcs/sources_1/imports/gaussian_1.0/imageControl.v,1723392761,verilog,,C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.srcs/sources_1/imports/gaussian_1.0/lineBuffer.v,,imageControl,,,,,,,,
+C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.srcs/sources_1/imports/gaussian_1.0/lineBuffer.v,1720373343,verilog,,C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.srcs/sim_1/new/tb_imageControl3.v,,lineBuffer,,,,,,,,

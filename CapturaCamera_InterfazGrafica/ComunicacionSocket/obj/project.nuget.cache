@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oiSAWPpnbwM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bazoubel\\Desktop\\Pratica02_ComunicacionSockets\\ComunicacionSocket\\ComunicacionSocket.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bazoubel\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\bazoubel\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\bazoubel\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Aug 11 12:42:37 2024
+# Process ID: 12236
+# Current directory: C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log imageControl.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source imageControl.tcl
+# Log file: C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.runs/synth_1/imageControl.vds
+# Journal file: C:/Users/bazoubel/Desktop/TestBench_ImageControl/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source imageControl.tcl -notrace
