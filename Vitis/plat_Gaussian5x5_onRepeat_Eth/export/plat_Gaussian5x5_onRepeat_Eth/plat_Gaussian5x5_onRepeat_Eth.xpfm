@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="plat_Gaussian5x5_onRepeat_Eth"
+              sdx:version="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+plat_Gaussian5x5_onRepeat_Eth
+    </sdx:description>
+    <sdx:hardwarePlatforms>
+        <sdx:hardwarePlatform sdx:path="hw" sdx:name="xsa_gaussian5x5_v1_0_obusy36_all120.xsa"/>
+    </sdx:hardwarePlatforms>
+    <sdx:softwarePlatforms>
+        <sdx:softwarePlatform sdx:path="sw" sdx:name="plat_Gaussian5x5_onRepeat_Eth.spfm"/>
+    </sdx:softwarePlatforms>
+</sdx:platform>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="app_Gaussian5x5_onRepeat_Eth" location="C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth" platform="C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="app_Gaussian5x5_onRepeat_Eth_system" sysConfig="plat_Gaussian5x5_onRepeat_Eth" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="94bd0ed766ca616e34d2559dd02cb010">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1613102786">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.203459296" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

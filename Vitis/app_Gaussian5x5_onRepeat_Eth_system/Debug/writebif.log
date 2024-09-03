@@ -1,0 +1,855 @@
+TRACE::2024-08-17.14:21:09::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:21:09::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:21:09::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:21:09::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:21:09::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:21:09::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:21:09::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:21:09::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:21:09::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.14:21:45::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:21:46::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:21:46::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:21:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:21:46::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:21:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:21:46::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:21:46::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:21:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.14:47:00::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:47:00::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:47:00::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:47:01::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:47:01::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:47:01::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:47:01::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:47:01::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:47:01::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.14:47:18::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:47:18::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:47:18::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:47:18::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:47:18::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:47:18::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:47:18::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:47:18::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:47:18::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.14:55:48::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:55:48::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:55:48::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:55:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:55:48::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:55:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:55:48::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:55:48::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:55:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.14:58:58::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.14:58:58::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.14:58:58::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.14:58:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.14:58:58::SCWBifWriter::proc type : 
+TRACE::2024-08-17.14:58:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.14:58:58::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.14:58:58::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.14:58:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:00:59::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:00:59::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:00:59::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:00:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:00:59::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:00:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:00:59::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:00:59::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:00:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:04:14::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:04:14::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:04:14::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:04:14::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:04:14::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:04:14::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:04:14::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:04:14::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:04:14::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:06:51::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:06:51::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:06:51::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:06:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:06:51::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:06:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:06:51::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:06:51::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:06:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:07:24::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:07:24::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:07:24::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:07:24::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:07:24::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:07:24::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:07:24::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:07:24::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:07:24::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:09:06::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:09:06::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:09:06::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:09:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:09:06::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:09:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:09:06::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:09:06::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:09:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:11:07::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:11:07::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-17.15:11:07::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:11:07::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:11:07::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:11:07::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:11:07::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:11:07::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:11:07::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.15:53:13::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.15:53:13::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-17.15:53:13::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.15:53:13::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.15:53:13::SCWBifWriter::proc type : 
+TRACE::2024-08-17.15:53:13::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.15:53:13::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.15:53:13::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.15:53:13::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.16:08:03::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.16:08:04::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-17.16:08:04::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.16:08:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.16:08:04::SCWBifWriter::proc type : 
+TRACE::2024-08-17.16:08:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.16:08:04::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.16:08:04::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.16:08:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.16:09:11::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.16:09:11::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-17.16:09:11::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.16:09:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.16:09:11::SCWBifWriter::proc type : 
+TRACE::2024-08-17.16:09:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.16:09:11::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.16:09:11::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.16:09:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.16:21:41::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.16:21:41::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-17.16:21:41::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.16:21:41::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.16:21:41::SCWBifWriter::proc type : 
+TRACE::2024-08-17.16:21:41::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.16:21:41::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.16:21:41::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.16:21:41::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.22:24:16::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.22:24:16::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.22:24:16::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.22:24:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.22:24:16::SCWBifWriter::proc type : 
+TRACE::2024-08-17.22:24:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.22:24:16::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.22:24:16::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.22:24:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.22:26:26::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.22:26:26::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.22:26:26::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.22:26:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.22:26:26::SCWBifWriter::proc type : 
+TRACE::2024-08-17.22:26:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.22:26:26::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.22:26:26::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.22:26:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.22:35:29::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.22:35:29::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.22:35:29::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.22:35:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.22:35:29::SCWBifWriter::proc type : 
+TRACE::2024-08-17.22:35:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.22:35:29::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.22:35:29::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.22:35:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:14:25::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:14:25::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:14:25::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:14:25::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:14:25::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:14:25::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:14:25::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:14:25::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:14:25::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:14:40::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:14:40::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:14:40::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:14:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:14:40::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:14:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:14:40::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:14:40::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:14:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:20:58::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:20:58::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:20:58::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:20:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:20:58::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:20:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:20:58::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:20:58::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:20:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:24:16::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:24:16::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:24:16::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:24:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:24:16::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:24:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:24:16::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:24:16::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:24:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:40:55::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:40:55::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:40:55::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:40:55::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:40:55::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:40:55::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:40:55::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:40:55::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:40:55::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:41:25::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:41:26::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:41:26::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:41:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:41:26::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:41:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:41:26::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:41:26::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:41:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:43:34::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:43:34::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:43:34::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:43:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:43:34::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:43:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:43:34::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:43:34::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:43:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:47:32::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:47:33::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:47:33::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:47:33::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:47:33::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:47:33::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:47:33::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:47:33::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:47:33::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-17.23:50:44::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-17.23:50:45::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-17.23:50:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-17.23:50:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-17.23:50:45::SCWBifWriter::proc type : 
+TRACE::2024-08-17.23:50:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-17.23:50:45::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-17.23:50:45::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-17.23:50:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.10:55:53::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.10:55:53::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-18.10:55:53::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.10:55:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.10:55:53::SCWBifWriter::proc type : 
+TRACE::2024-08-18.10:55:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.10:55:53::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.10:55:53::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.10:55:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.12:20:16::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.12:20:16::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-18.12:20:16::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.12:20:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.12:20:16::SCWBifWriter::proc type : 
+TRACE::2024-08-18.12:20:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.12:20:16::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.12:20:16::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.12:20:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.12:52:54::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.12:52:55::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.12:52:55::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.12:52:55::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.12:52:55::SCWBifWriter::proc type : 
+TRACE::2024-08-18.12:52:55::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.12:52:55::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.12:52:55::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.12:52:55::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:03:15::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:03:15::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:03:15::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:03:15::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:03:15::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:03:15::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:03:15::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:03:15::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:03:15::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:18:06::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:18:06::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:18:06::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:18:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:18:06::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:18:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:18:06::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:18:06::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:18:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:19:47::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:19:48::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:19:48::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:19:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:19:48::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:19:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:19:48::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:19:48::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:19:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:24:38::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:24:38::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:24:38::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:24:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:24:38::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:24:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:24:38::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:24:38::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:24:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:28:54::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:28:54::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:28:54::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:28:54::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:28:54::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:28:54::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:28:54::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:28:54::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:28:54::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:55:04::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:55:04::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:55:04::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:55:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:55:04::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:55:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:55:04::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:55:04::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:55:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.13:59:08::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.13:59:08::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.13:59:08::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.13:59:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.13:59:08::SCWBifWriter::proc type : 
+TRACE::2024-08-18.13:59:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.13:59:08::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.13:59:08::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.13:59:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.14:01:37::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.14:01:38::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.14:01:38::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.14:01:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.14:01:38::SCWBifWriter::proc type : 
+TRACE::2024-08-18.14:01:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.14:01:38::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.14:01:38::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.14:01:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.14:05:56::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.14:05:56::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-18.14:05:56::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.14:05:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.14:05:56::SCWBifWriter::proc type : 
+TRACE::2024-08-18.14:05:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.14:05:56::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.14:05:56::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.14:05:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-18.21:35:02::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-18.21:35:02::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2024-08-18.21:35:02::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-18.21:35:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-18.21:35:02::SCWBifWriter::proc type : 
+TRACE::2024-08-18.21:35:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-18.21:35:02::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-18.21:35:02::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-18.21:35:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.09:49:27::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.09:49:27::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-20.09:49:27::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.09:49:27::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.09:49:27::SCWBifWriter::proc type : 
+TRACE::2024-08-20.09:49:27::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.09:49:27::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.09:49:27::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.09:49:27::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.14:32:19::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.14:32:19::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2024-08-20.14:32:19::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.14:32:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.14:32:19::SCWBifWriter::proc type : 
+TRACE::2024-08-20.14:32:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.14:32:19::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.14:32:19::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.14:32:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.14:36:31::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.14:36:31::SCWBifWriter::hardware databse : design_1_wrapper_10
+TRACE::2024-08-20.14:36:31::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.14:36:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.14:36:31::SCWBifWriter::proc type : 
+TRACE::2024-08-20.14:36:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.14:36:32::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.14:36:32::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.14:36:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.14:44:56::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.14:44:56::SCWBifWriter::hardware databse : design_1_wrapper_11
+TRACE::2024-08-20.14:44:56::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.14:44:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.14:44:56::SCWBifWriter::proc type : 
+TRACE::2024-08-20.14:44:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.14:44:56::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.14:44:56::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.14:44:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.14:58:46::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.14:58:47::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2024-08-20.14:58:47::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.14:58:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.14:58:47::SCWBifWriter::proc type : 
+TRACE::2024-08-20.14:58:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.14:58:47::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.14:58:47::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.14:58:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:10:02::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:10:02::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2024-08-20.15:10:02::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:10:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:10:02::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:10:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:10:02::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:10:02::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:10:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:33:06::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:33:06::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2024-08-20.15:33:06::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:33:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:33:06::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:33:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:33:06::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:33:06::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:33:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:40:47::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:40:47::SCWBifWriter::hardware databse : design_1_wrapper_16
+TRACE::2024-08-20.15:40:47::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:40:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:40:47::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:40:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:40:47::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:40:47::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:40:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:46:10::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:46:10::SCWBifWriter::hardware databse : design_1_wrapper_17
+TRACE::2024-08-20.15:46:10::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:46:10::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:46:10::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:46:10::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:46:10::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:46:10::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:46:10::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:50:37::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:50:37::SCWBifWriter::hardware databse : design_1_wrapper_18
+TRACE::2024-08-20.15:50:37::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:50:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:50:37::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:50:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:50:37::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:50:37::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:50:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.15:51:45::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.15:51:45::SCWBifWriter::hardware databse : design_1_wrapper_18
+TRACE::2024-08-20.15:51:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.15:51:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.15:51:45::SCWBifWriter::proc type : 
+TRACE::2024-08-20.15:51:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.15:51:45::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.15:51:45::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.15:51:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.16:03:05::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.16:03:05::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-20.16:03:05::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.16:03:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.16:03:05::SCWBifWriter::proc type : 
+TRACE::2024-08-20.16:03:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.16:03:05::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.16:03:05::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.16:03:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.16:15:34::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.16:15:34::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-20.16:15:34::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.16:15:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.16:15:34::SCWBifWriter::proc type : 
+TRACE::2024-08-20.16:15:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.16:15:34::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.16:15:34::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.16:15:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.16:33:50::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.16:33:50::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2024-08-20.16:33:50::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.16:33:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.16:33:50::SCWBifWriter::proc type : 
+TRACE::2024-08-20.16:33:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.16:33:50::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.16:33:50::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.16:33:50::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.16:38:45::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.16:38:45::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2024-08-20.16:38:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.16:38:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.16:38:45::SCWBifWriter::proc type : 
+TRACE::2024-08-20.16:38:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.16:38:45::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.16:38:45::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.16:38:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.17:45:53::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.17:45:53::SCWBifWriter::hardware databse : design_1_wrapper_11
+TRACE::2024-08-20.17:45:53::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.17:45:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.17:45:53::SCWBifWriter::proc type : 
+TRACE::2024-08-20.17:45:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.17:45:53::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.17:45:53::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.17:45:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.18:01:48::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.18:01:49::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2024-08-20.18:01:49::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.18:01:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.18:01:49::SCWBifWriter::proc type : 
+TRACE::2024-08-20.18:01:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.18:01:49::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.18:01:49::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.18:01:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.18:07:16::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.18:07:16::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-20.18:07:16::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.18:07:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.18:07:16::SCWBifWriter::proc type : 
+TRACE::2024-08-20.18:07:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.18:07:16::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.18:07:16::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.18:07:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.18:08:05::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.18:08:05::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-20.18:08:05::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.18:08:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.18:08:05::SCWBifWriter::proc type : 
+TRACE::2024-08-20.18:08:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.18:08:05::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.18:08:05::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.18:08:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.18:17:26::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.18:17:27::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2024-08-20.18:17:27::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.18:17:27::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.18:17:27::SCWBifWriter::proc type : 
+TRACE::2024-08-20.18:17:27::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.18:17:27::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.18:17:27::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.18:17:27::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.19:34:05::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.19:34:05::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-20.19:34:05::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.19:34:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.19:34:05::SCWBifWriter::proc type : 
+TRACE::2024-08-20.19:34:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.19:34:05::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.19:34:05::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.19:34:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.19:42:39::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.19:42:39::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2024-08-20.19:42:39::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.19:42:39::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.19:42:39::SCWBifWriter::proc type : 
+TRACE::2024-08-20.19:42:39::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.19:42:39::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.19:42:39::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.19:42:39::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.19:57:41::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.19:57:42::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2024-08-20.19:57:42::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.19:57:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.19:57:42::SCWBifWriter::proc type : 
+TRACE::2024-08-20.19:57:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.19:57:42::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.19:57:42::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.19:57:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.20:39:57::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.20:39:58::SCWBifWriter::hardware databse : design_1_wrapper_9
+TRACE::2024-08-20.20:39:58::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.20:39:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.20:39:58::SCWBifWriter::proc type : 
+TRACE::2024-08-20.20:39:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.20:39:58::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.20:39:58::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.20:39:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:02:11::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:02:11::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2024-08-20.21:02:11::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:02:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:02:11::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:02:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:02:11::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:02:11::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:02:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:06:51::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:06:51::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-20.21:06:51::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:06:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:06:51::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:06:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:06:51::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:06:51::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:06:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:08:48::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:08:49::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2024-08-20.21:08:49::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:08:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:08:49::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:08:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:08:49::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:08:49::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:08:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:12:16::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:12:16::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2024-08-20.21:12:16::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:12:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:12:16::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:12:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:12:16::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:12:16::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:12:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:12:37::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:12:37::SCWBifWriter::hardware databse : design_1_wrapper_1
+TRACE::2024-08-20.21:12:37::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:12:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:12:37::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:12:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:12:37::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:12:37::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:12:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:38:27::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:38:28::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-20.21:38:28::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:38:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:38:28::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:38:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:38:28::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:38:28::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:38:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-20.21:42:48::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-20.21:42:48::SCWBifWriter::hardware databse : design_1_wrapper_4
+TRACE::2024-08-20.21:42:48::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-20.21:42:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-20.21:42:48::SCWBifWriter::proc type : 
+TRACE::2024-08-20.21:42:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-20.21:42:48::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-20.21:42:48::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-20.21:42:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.00:04:39::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.00:04:39::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2024-08-21.00:04:39::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.00:04:39::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.00:04:39::SCWBifWriter::proc type : 
+TRACE::2024-08-21.00:04:39::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.00:04:39::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.00:04:39::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.00:04:39::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.09:57:48::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.09:57:48::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-21.09:57:48::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.09:57:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.09:57:48::SCWBifWriter::proc type : 
+TRACE::2024-08-21.09:57:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.09:57:48::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.09:57:48::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.09:57:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.09:58:58::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.09:58:58::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2024-08-21.09:58:58::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.09:58:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.09:58:58::SCWBifWriter::proc type : 
+TRACE::2024-08-21.09:58:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.09:58:58::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.09:58:58::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.09:58:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.10:24:50::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.10:24:50::SCWBifWriter::hardware databse : design_1_wrapper_5
+TRACE::2024-08-21.10:24:50::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.10:24:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.10:24:50::SCWBifWriter::proc type : 
+TRACE::2024-08-21.10:24:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.10:24:50::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.10:24:50::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.10:24:50::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.10:30:04::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.10:30:04::SCWBifWriter::hardware databse : design_1_wrapper_6
+TRACE::2024-08-21.10:30:04::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.10:30:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.10:30:04::SCWBifWriter::proc type : 
+TRACE::2024-08-21.10:30:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.10:30:04::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.10:30:04::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.10:30:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.10:37:45::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.10:37:45::SCWBifWriter::hardware databse : design_1_wrapper_10
+TRACE::2024-08-21.10:37:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.10:37:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.10:37:45::SCWBifWriter::proc type : 
+TRACE::2024-08-21.10:37:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.10:37:45::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.10:37:45::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.10:37:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:24:42::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:24:42::SCWBifWriter::hardware databse : design_1_wrapper_12
+TRACE::2024-08-21.11:24:42::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:24:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:24:42::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:24:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:24:42::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:24:42::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:24:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:29:02::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:29:02::SCWBifWriter::hardware databse : design_1_wrapper_13
+TRACE::2024-08-21.11:29:02::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:29:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:29:02::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:29:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:29:02::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:29:02::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:29:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:32:34::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:32:34::SCWBifWriter::hardware databse : design_1_wrapper_14
+TRACE::2024-08-21.11:32:34::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:32:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:32:34::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:32:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:32:34::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:32:34::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:32:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:48:34::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:48:34::SCWBifWriter::hardware databse : design_1_wrapper_17
+TRACE::2024-08-21.11:48:34::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:48:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:48:34::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:48:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:48:34::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:48:34::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:48:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:48:51::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:48:51::SCWBifWriter::hardware databse : design_1_wrapper_17
+TRACE::2024-08-21.11:48:51::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:48:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:48:51::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:48:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:48:51::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:48:51::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:48:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.11:52:49::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.11:52:49::SCWBifWriter::hardware databse : design_1_wrapper_18
+TRACE::2024-08-21.11:52:49::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.11:52:49::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.11:52:49::SCWBifWriter::proc type : 
+TRACE::2024-08-21.11:52:49::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.11:52:49::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.11:52:49::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.11:52:49::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.12:00:19::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.12:00:19::SCWBifWriter::hardware databse : design_1_wrapper_19
+TRACE::2024-08-21.12:00:19::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.12:00:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.12:00:19::SCWBifWriter::proc type : 
+TRACE::2024-08-21.12:00:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.12:00:19::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.12:00:19::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.12:00:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.12:21:02::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.12:21:02::SCWBifWriter::hardware databse : design_1_wrapper_20
+TRACE::2024-08-21.12:21:02::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.12:21:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.12:21:02::SCWBifWriter::proc type : 
+TRACE::2024-08-21.12:21:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.12:21:02::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.12:21:02::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.12:21:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.12:33:22::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.12:33:22::SCWBifWriter::hardware databse : design_1_wrapper_21
+TRACE::2024-08-21.12:33:22::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.12:33:22::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.12:33:22::SCWBifWriter::proc type : 
+TRACE::2024-08-21.12:33:22::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.12:33:22::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.12:33:22::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.12:33:22::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.12:38:50::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.12:38:50::SCWBifWriter::hardware databse : design_1_wrapper_22
+TRACE::2024-08-21.12:38:50::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.12:38:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.12:38:50::SCWBifWriter::proc type : 
+TRACE::2024-08-21.12:38:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.12:38:50::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.12:38:51::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.12:38:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.22:03:03::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.22:03:03::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2024-08-21.22:03:03::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.22:03:03::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.22:03:03::SCWBifWriter::proc type : 
+TRACE::2024-08-21.22:03:03::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.22:03:03::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.22:03:03::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.22:03:03::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-21.22:04:53::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-21.22:04:53::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2024-08-21.22:04:53::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-21.22:04:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-21.22:04:53::SCWBifWriter::proc type : 
+TRACE::2024-08-21.22:04:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-21.22:04:53::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-21.22:04:53::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-21.22:04:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-22.23:31:15::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-22.23:31:15::SCWBifWriter::hardware databse : design_1_wrapper_2
+TRACE::2024-08-22.23:31:15::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-22.23:31:15::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-22.23:31:15::SCWBifWriter::proc type : 
+TRACE::2024-08-22.23:31:15::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-22.23:31:15::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-22.23:31:15::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-22.23:31:15::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-23.01:54:01::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-23.01:54:02::SCWBifWriter::hardware databse : design_1_wrapper_15
+TRACE::2024-08-23.01:54:02::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-23.01:54:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-23.01:54:02::SCWBifWriter::proc type : 
+TRACE::2024-08-23.01:54:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-23.01:54:02::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-23.01:54:02::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-23.01:54:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-23.01:58:28::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-23.01:58:28::SCWBifWriter::hardware databse : design_1_wrapper
+TRACE::2024-08-23.01:58:28::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-23.01:58:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-23.01:58:28::SCWBifWriter::proc type : 
+TRACE::2024-08-23.01:58:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-23.01:58:28::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-23.01:58:28::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-23.01:58:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-23.02:03:47::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-23.02:03:47::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2024-08-23.02:03:47::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-23.02:03:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-23.02:03:47::SCWBifWriter::proc type : 
+TRACE::2024-08-23.02:03:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-23.02:03:47::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-23.02:03:47::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-23.02:03:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-24.15:03:52::SCWBifWriter::Found the complete platform C:/Users/bazoubel/Documents/workspace_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth/export/plat_Gaussian5x5_onRepeat_Eth/plat_Gaussian5x5_onRepeat_Eth.xpfm
+TRACE::2024-08-24.15:03:52::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2024-08-24.15:03:52::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-24.15:03:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-24.15:03:52::SCWBifWriter::proc type : 
+TRACE::2024-08-24.15:03:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-24.15:03:52::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-24.15:03:52::SCWBifWriter::Writing BIF to file : C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/app_Gaussian5x5_onRepeat_Eth_system/Debug/system.bif
+TRACE::2024-08-24.15:03:52::SCWBifWriter::Writing the Zynq Baremetal bif 

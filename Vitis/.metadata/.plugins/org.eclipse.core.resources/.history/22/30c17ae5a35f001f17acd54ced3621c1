@@ -1,0 +1,470 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 11, 2024
+ *      Author: Beatrice Michalewicz
+ */
+
+#include "main.h"
+#include <stdio.h>
+#include "xparameters.h"
+#include "netif/xadapter.h"
+#include "platform.h"
+#include "xil_printf.h"
+#include "xil_cache.h"
+
+int main(){
+	init_platform();
+
+	XScuGic Intc;
+	initIntrController(&Intc);
+
+	ip_addr_t ipaddr, netmask, gw;
+
+	unsigned char mac_ethernet_address[] =
+	{ 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+
+	echo_netif = &server_netif;
+
+	IP4_ADDR(&ipaddr,  192, 168,   1, 210);
+	IP4_ADDR(&netmask, 255, 255, 255,  0);
+	//IP4_ADDR(&gw,      192, 168,   1,  1);
+
+	lwip_init();
+
+	if (!xemac_add(echo_netif, &ipaddr, &netmask,
+						&gw, mac_ethernet_address,
+						PLATFORM_EMAC_BASEADDR)) {
+		xil_printf("Error adding N/W interface\n\r");
+		return -1;
+	}
+
+	netif_set_default(echo_netif);
+	platform_enable_interrupts();
+	netif_set_up(echo_netif);
+	start_application();
+
+	XGpio_Initialize(&rdLineCounterGpio, XPAR_O_RDLINECOUNTER_DEVICE_ID);
+	XGpio_SetDataDirection(&rdLineCounterGpio, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&totalPixelCounterGpio, XPAR_O_TOTALPIXELCOUNTER_DEVICE_ID);
+	XGpio_SetDataDirection(&totalPixelCounterGpio, 1, 0xFFFFFFFF);
+
+	XGpio_Initialize(&auxResetGpio, XPAR_I_AUX_RESET_DEVICE_ID);
+	XGpio_SetDataDirection(&auxResetGpio, 1, 0x00000000);
+
+	XGpio_DiscreteWrite(&auxResetGpio, 1, 0);
+
+	XAxiVdma myVDMA;
+	XAxiVdma_Config *config = XAxiVdma_LookupConfig(XPAR_AXI_VDMA_0_DEVICE_ID);
+	if (config == NULL) {
+	    xil_printf("VDMA configuration lookup failed\n");
+	    return XST_FAILURE;
+	}
+
+	int status;
+	XAxiVdma_DmaSetup ReadCfg;
+	status = XAxiVdma_CfgInitialize(&myVDMA, config, config->BaseAddress);
+	if (status != XST_SUCCESS) {
+	    xil_printf("DMA Initialization failed with status %d\n", status);
+	    return status;
+	}
+
+    ReadCfg.VertSizeInput = FULLSCREEN_V_SIZE;
+    ReadCfg.HoriSizeInput = FULLSCREEN_H_SIZE*3;
+    ReadCfg.Stride = FULLSCREEN_H_SIZE*3;
+    ReadCfg.FrameDelay = 0;
+    ReadCfg.EnableCircularBuf = 1;
+    ReadCfg.EnableSync = 1;
+    ReadCfg.PointNum = 0;
+    ReadCfg.EnableFrameCounter = 0;
+    ReadCfg.FixedFrameStoreAddr = 0;
+    status = XAxiVdma_DmaConfig(&myVDMA, XAXIVDMA_READ, &ReadCfg);
+    if (status != XST_SUCCESS) {
+    	xil_printf("Write channel config failed %d\r\n", status);
+    	return status;
+    }
+
+	u32 Addr;
+    Addr = (u32)&(Buffer[0]);
+
+	int Index;
+	for(Index = 0; Index < myVDMA.MaxNumFrames; Index++) {
+		ReadCfg.FrameStoreStartAddr[Index] = Addr;
+		Addr +=  FRAME_SIZE;
+	}
+
+	status = XAxiVdma_DmaSetBufferAddr(&myVDMA, XAXIVDMA_READ,ReadCfg.FrameStoreStartAddr);
+	if (status != XST_SUCCESS) {
+		xil_printf("Read channel set buffer address failed %d\r\n", status);
+		return XST_FAILURE;
+	}
+
+	XAxiVdma_IntrEnable(&myVDMA, XAXIVDMA_IXR_COMPLETION_MASK, XAXIVDMA_READ);
+	SetupVideoIntrSystem(&myVDMA, XPAR_FABRIC_AXI_VDMA_0_MM2S_INTROUT_INTR,&Intc);
+	status = XAxiVdma_DmaStart(&myVDMA,XAXIVDMA_READ);
+	if (status != XST_SUCCESS) {
+		if(status == XST_VDMA_MISMATCH_ERROR)
+			xil_printf("DMA Mismatch Error\r\n");
+		return XST_FAILURE;
+	}
+
+
+	imgProcess myImgProcess;
+	char *filteredImage;
+	filteredImage = malloc(sizeof(char) * IMAGE_SIZE);
+	if (filteredImage == NULL) {
+	    xil_printf("Memory allocation for filteredImage failed\n");
+	    return XST_FAILURE;
+	}
+
+	myImgProcess.imageDataPointer = imageMonaLisa;
+	myImgProcess.imageHSize = IMAGE_H_SIZE;
+	myImgProcess.imageVSize = IMAGE_V_SIZE;
+	myImgProcess.filteredImageDataPointer = filteredImage;
+	initImgProcessSystem(&myImgProcess, (u32)XPAR_AXI_DMA_0_BASEADDR, &Intc);
+
+    rdLineCounterValue = XGpio_DiscreteRead(&rdLineCounterGpio, 1);
+	totalPixelCounterValue = XGpio_DiscreteRead(&totalPixelCounterGpio, 1);
+
+	startImageProcessing(&myImgProcess);
+
+    enum ProcessState currentState = WAIT_AFTER_START_FIRST;
+    int clockCycles = 0;
+    const int cyclesForDraw = 3000000;
+    const int cyclesAfterStart = 5000;
+
+    while(1) {
+    	if (receiving == false && transfering == false){
+            resetAndStartProcessing(&myImgProcess, &auxResetGpio, imageMonaLisa);
+            clockCycles = cyclesAfterStart;
+            currentState = WAIT_AFTER_START_FIRST;
+    	}
+
+        switch (currentState) {
+            case INIT_PROCESS:
+            	if (receiving == false){
+                    resetAndStartProcessing(&myImgProcess, &auxResetGpio, imageMonaLisa);
+                    clockCycles = cyclesAfterStart;
+                    currentState = WAIT_AFTER_START_FIRST;
+            	}
+                break;
+
+            case WAIT_AFTER_START_FIRST:
+                if (--clockCycles <= 0) {
+                    currentState = DRAW_FIRST_IMAGE;
+                }
+                break;
+
+            case DRAW_FIRST_IMAGE:
+            	if (receiving == false){
+					drawImage(FULLSCREEN_H_SIZE, FULLSCREEN_V_SIZE, IMAGE_H_SIZE, IMAGE_V_SIZE,
+							  (FULLSCREEN_H_SIZE - IMAGE_H_SIZE) / 2, (FULLSCREEN_V_SIZE - IMAGE_V_SIZE) / 2,
+							  1, imageMonaLisa, Buffer);
+					clockCycles = cyclesForDraw;
+					currentState = WAIT_FIRST_IMAGE;
+            	}
+                break;
+
+            case WAIT_FIRST_IMAGE:
+                if (--clockCycles <= 0) {
+                    currentState = DRAW_FIRST_FILTERED_IMAGE;
+                }
+                break;
+
+            case DRAW_FIRST_FILTERED_IMAGE:
+            	if (receiving == false){
+					drawImage(FULLSCREEN_H_SIZE, FULLSCREEN_V_SIZE, IMAGE_H_SIZE, IMAGE_V_SIZE,
+							  (FULLSCREEN_H_SIZE - IMAGE_H_SIZE) / 2, (FULLSCREEN_V_SIZE - IMAGE_V_SIZE) / 2,
+							  1, filteredImage, Buffer);
+					clockCycles = cyclesForDraw;
+					currentState = WAIT_FIRST_FILTERED_IMAGE;
+            	}
+                break;
+
+            case WAIT_FIRST_FILTERED_IMAGE:
+                if (--clockCycles <= 0) {
+                    currentState = PROCESS_SECOND_IMAGE;
+                }
+                break;
+
+            case PROCESS_SECOND_IMAGE:
+            	if (receiving == false){
+                    resetAndStartProcessing(&myImgProcess, &auxResetGpio, data_buffer);
+					clockCycles = cyclesAfterStart;
+					currentState = WAIT_AFTER_START_SECOND;
+            	}
+                break;
+
+            case WAIT_AFTER_START_SECOND:
+                if (--clockCycles <= 0) {
+                    currentState = DRAW_SECOND_IMAGE;
+                }
+                break;
+
+            case DRAW_SECOND_IMAGE:
+            	if (receiving == false){
+					drawImage(FULLSCREEN_H_SIZE, FULLSCREEN_V_SIZE, IMAGE_H_SIZE, IMAGE_V_SIZE,
+							  (FULLSCREEN_H_SIZE - IMAGE_H_SIZE) / 2, (FULLSCREEN_V_SIZE - IMAGE_V_SIZE) / 2,
+							  1, data_buffer, Buffer);
+					clockCycles = cyclesForDraw;
+					currentState = WAIT_SECOND_IMAGE;
+            	}
+                break;
+
+            case WAIT_SECOND_IMAGE:
+                if (--clockCycles <= 0) {
+                    currentState = DRAW_SECOND_FILTERED_IMAGE;
+                }
+                break;
+
+            case DRAW_SECOND_FILTERED_IMAGE:
+            	if (receiving == false){
+					drawImage(FULLSCREEN_H_SIZE, FULLSCREEN_V_SIZE, IMAGE_H_SIZE, IMAGE_V_SIZE,
+							  (FULLSCREEN_H_SIZE - IMAGE_H_SIZE) / 2, (FULLSCREEN_V_SIZE - IMAGE_V_SIZE) / 2,
+							  1, filteredImage, Buffer);
+					clockCycles = cyclesForDraw;
+					currentState = WAIT_SECOND_FILTERED_IMAGE;
+            	}
+                break;
+
+            case WAIT_SECOND_FILTERED_IMAGE:
+                if (--clockCycles <= 0) {
+                    currentState = RESET_PROCESS;
+                }
+                break;
+
+            case RESET_PROCESS:
+            	if (receiving == false){
+                    resetAndStartProcessing(&myImgProcess, &auxResetGpio, imageMonaLisa);
+					clockCycles = cyclesAfterStart;
+					currentState = WAIT_AFTER_RESET;
+            	}
+                break;
+
+            case WAIT_AFTER_RESET:
+                if (--clockCycles <= 0) {
+                    currentState = DRAW_FIRST_IMAGE;
+                }
+                break;
+
+            default:
+                break;
+        }
+
+        if (TcpFastTmrFlag) {
+            tcp_fasttmr();
+            TcpFastTmrFlag = 0;
+        }
+        if (TcpSlowTmrFlag) {
+            tcp_slowtmr();
+            TcpSlowTmrFlag = 0;
+        }
+
+        xemacif_input(echo_netif);
+		if (received_bytes > 0 && send_index != EXPECTED_SIZE && receiving == false) {
+			transfer_data(global_tpcb);
+		}
+    }
+
+	cleanup_platform();
+    return 0;
+}
+//------------------------------------------------------------
+//------------------------------------------------------------
+int initIntrController(XScuGic *IntcInstancePtr){
+	int Status;
+	XScuGic_Config *IntcConfig;
+
+    IntcConfig = XScuGic_LookupConfig(XPAR_PS7_SCUGIC_0_DEVICE_ID);
+    if (!IntcConfig) {
+        xil_printf("Failed to find config for INTC\n");
+        return -1;
+    }
+
+	Status =  XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig, IntcConfig->CpuBaseAddress);
+	if(Status != XST_SUCCESS){
+		xil_printf("Interrupt controller initialization failed..");
+		return -1;
+	}
+
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XScuGic_InterruptHandler,(void *)IntcInstancePtr);
+	Xil_ExceptionEnable();
+
+	return XST_SUCCESS;
+}
+//------------------------------------------------------------
+//------------------------------------------------------------
+static int SetupVideoIntrSystem(XAxiVdma *AxiVdmaPtr, u16 ReadIntrId, XScuGic *Intc)
+{
+	int Status;
+	XScuGic *IntcInstancePtr = Intc;
+
+	Status = XScuGic_Connect(IntcInstancePtr,ReadIntrId,(Xil_InterruptHandler)XAxiVdma_ReadIntrHandler,(void *)AxiVdmaPtr);
+	if (Status != XST_SUCCESS) {
+		xil_printf("Failed read channel connect intc %d\r\n", Status);
+		return XST_FAILURE;
+	}
+
+	XScuGic_Enable(IntcInstancePtr,ReadIntrId);
+	XAxiVdma_SetCallBack(AxiVdmaPtr, XAXIVDMA_HANDLER_GENERAL, ReadCallBack, (void *)AxiVdmaPtr, XAXIVDMA_READ);
+	XAxiVdma_SetCallBack(AxiVdmaPtr, XAXIVDMA_HANDLER_ERROR, ReadErrorCallBack, (void *)AxiVdmaPtr, XAXIVDMA_READ);
+
+	return XST_SUCCESS;
+}
+//------------------------------------------------------------
+static void ReadCallBack(void *CallbackRef, u32 Mask)
+{
+	//xil_printf("Read Call back function is called\r\n");
+}
+//------------------------------------------------------------
+static void ReadErrorCallBack(void *CallbackRef, u32 Mask)
+{
+	xil_printf("Read Call back Error function is called\r\n");
+}
+//------------------------------------------------------------
+//------------------------------------------------------------
+void resetDMA(XAxiDma *myDma) {
+    XAxiDma_Reset(myDma);
+    int timeout = 100000;
+    while (!XAxiDma_ResetIsDone(myDma) && timeout > 0) {
+        timeout--;
+    }
+    if (timeout == 0) {
+        xil_printf("DMA reset timeout\n");
+    }
+}
+//------------------------------------------------------------
+void resetAndStartProcessing(imgProcess *imgProcessInstance,XGpio *gpioReset, char *imageData) {
+    resetDMA(imgProcessInstance->DmaCtrlPointer);
+    XGpio_DiscreteWrite(gpioReset, 1, 1);
+    XGpio_DiscreteWrite(gpioReset, 1, 0);
+    imgProcessInstance->imageDataPointer = imageData;
+    startImageProcessing(imgProcessInstance);
+}
+//------------------------------------------------------------
+//------------------------------------------------------------
+int transfer_data() {
+	transfering = true;
+    struct tcp_pcb *tpcb = global_tpcb;
+    if (tpcb == NULL) {
+        return -1;
+    }
+
+    if (received_bytes == 0) {
+        send_index = 0;
+        return 0;
+    }
+
+    int space_in_tcp_buffer = tcp_sndbuf(tpcb);
+    if (space_in_tcp_buffer == 0) {
+        return 1;
+    }
+
+    int bytes_to_send = (space_in_tcp_buffer < received_bytes) ? space_in_tcp_buffer : received_bytes;
+    u8_t apiflags = TCP_WRITE_FLAG_COPY;
+    if (bytes_to_send < received_bytes) {
+        apiflags |= TCP_WRITE_FLAG_MORE;
+    }
+
+    err_t wr_err = tcp_write(tpcb, data_buffer + send_index, bytes_to_send, apiflags);
+    if (wr_err != ERR_OK) {
+        xil_printf("Erro ao enviar dados: %d\n", wr_err);
+        return -2;
+    }
+
+    tcp_output(tpcb);
+
+    received_bytes -= bytes_to_send;
+    send_index += bytes_to_send;
+
+    if (received_bytes == 0) {
+    	transfering = false;
+        send_index = 0;
+    }
+
+    return 0;
+}
+//------------------------------------------------------------
+err_t recv_callback(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
+{
+	receiving = true;
+
+    if (!p) {
+        tcp_close(tpcb);
+        tcp_recv(tpcb, NULL);
+        return ERR_OK;
+    }
+
+ 	tcp_recved(tpcb, p->len);
+
+    tcp_recved(tpcb, p->tot_len);
+
+    if (p->len > 0) {
+        char *received_data = (char *)p->payload;
+
+        unsigned int received_data_length = p->len;
+
+        memcpy(&data_buffer[received_bytes], received_data, received_data_length);
+        received_bytes += received_data_length;
+
+        xil_printf("Received %d/%d bytes\n", received_bytes, EXPECTED_SIZE);
+    }
+    pbuf_free(p);
+
+    if (received_bytes == EXPECTED_SIZE){
+    	receiving = false;
+    }
+
+    return ERR_OK;
+}
+//------------------------------------------------------------
+err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err)
+{
+    static int connection = 1;
+
+    global_tpcb = newpcb;
+
+    tcp_recv(newpcb, recv_callback);
+
+    tcp_arg(newpcb, (void*)(UINTPTR)connection);
+
+    connection++;
+
+    return ERR_OK;
+}
+//------------------------------------------------------------
+int start_application()
+{
+	struct tcp_pcb *pcb;
+	err_t err;
+	unsigned port = 7;
+
+	pcb = tcp_new_ip_type(IPADDR_TYPE_ANY);
+	if (!pcb) {
+		xil_printf("Error creating PCB. Out of Memory\n\r");
+		return -1;
+	}
+
+	err = tcp_bind(pcb, IP_ANY_TYPE, port);
+	if (err != ERR_OK) {
+		xil_printf("Unable to bind to port %d: err = %d\n\r", port, err);
+		return -2;
+	}
+
+	tcp_arg(pcb, NULL);
+
+	pcb = tcp_listen(pcb);
+	if (!pcb) {
+		xil_printf("Out of memory while tcp_listen\n\r");
+		return -3;
+	}
+
+	tcp_accept(pcb, accept_callback);
+
+	xil_printf("TCP echo server started @ port %d\n\r", port);
+
+	return 0;
+}
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Tue Aug 20 21:04:47 2024
+# Process ID: 1428
+# Current directory: C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/webtalk/webtalk.log
+# Journal file: C:/Users/bazoubel/Desktop/workspace_Gaussian5x5_onRepeat_Eth/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

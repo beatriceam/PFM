@@ -1,0 +1,24 @@
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#include "images.h"
+#include "imageProcess.h"
+
+
+
+void resetDMA(XAxiDma *dmaInstance);
+int initIntrController(XScuGic *Intc);
+static int SetupVideoIntrSystem(XAxiVdma *AxiVdmaPtr, u16 ReadIntrId, XScuGic *Intc);
+void resetAndStartProcessing(imgProcess *imgProcessInstance,XGpio *gpioReset, char *imageData);
+
+//Declaration of GPIO variables
+XGpio rdLineCounterGpio;
+XGpio totalPixelCounterGpio;
+XGpio auxResetGpio;
+
+u32 rdLineCounterValue;
+u32 totalPixelCounterValue;
+
+char Buffer[FRAME_SIZE];
+
+#endif /* end of protection macro */

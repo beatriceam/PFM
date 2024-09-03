@@ -1,0 +1,60 @@
+#ifndef MAIN_H_
+#define MAIN_H_
+
+#include "images.h"
+#include "imageProcess.h"
+#include <stdbool.h>
+#include <stdint.h>
+
+
+#include "lwip/tcp.h"
+#include "lwip/err.h"
+#define MAX_DATA_SEND 8192 // POW(2,13)
+
+#define EXPECTED_SIZE IMAGE_SIZE // 256 KB
+
+uint8_t data_send[MAX_DATA_SEND];  // Buffer para armazenar os dados recebidos
+uint8_t data_buffer[EXPECTED_SIZE];  // Buffer para armazenar os dados recebidos
+unsigned int received_bytes = 0;           // Contador de bytes recebidos
+
+unsigned int send_index = 0;  // Índice para acompanhar a posição no data_buffer
+
+bool receiving = false;
+
+struct tcp_pcb *global_tpcb;
+
+void resetDMA(XAxiDma *dmaInstance);
+int initIntrController(XScuGic *Intc);
+static int SetupVideoIntrSystem(XAxiVdma *AxiVdmaPtr, u16 ReadIntrId, XScuGic *Intc);
+void resetAndStartProcessing(imgProcess *imgProcessInstance,XGpio *gpioReset, char *imageData);
+
+
+enum ProcessState {
+    INIT_PROCESS,
+    WAIT_AFTER_START_FIRST,
+    DRAW_FIRST_IMAGE,
+    WAIT_FIRST_IMAGE,
+    DRAW_FIRST_FILTERED_IMAGE,
+    WAIT_FIRST_FILTERED_IMAGE,
+    PROCESS_SECOND_IMAGE,
+    WAIT_AFTER_START_SECOND,
+    DRAW_SECOND_IMAGE,
+    WAIT_SECOND_IMAGE,
+    DRAW_SECOND_FILTERED_IMAGE,
+    WAIT_SECOND_FILTERED_IMAGE,
+    RESET_PROCESS,
+    WAIT_AFTER_RESET
+};
+
+
+//Declaration of GPIO variables
+XGpio rdLineCounterGpio;
+XGpio totalPixelCounterGpio;
+XGpio auxResetGpio;
+
+u32 rdLineCounterValue;
+u32 totalPixelCounterValue;
+
+char Buffer[FRAME_SIZE];
+
+#endif /* end of protection macro */

@@ -1,0 +1,201 @@
+/*
+ * imageProcess.c
+ *
+ *  Created on: Aug 11, 2024
+ *      Author: Beatrice Michalewicz
+ */
+
+#include "imageProcess.h"
+
+
+static void ImageProcISR(void *CallBackRef);
+static void FilterBusyISR(void *CallBackRef);
+static void dmaReceiveISR(void *CallBackRef);
+
+int lineCounter=0;
+/*****************************************************************************/
+/**
+ * This function copies the buffer data from image buffer to video buffer
+ *
+ * @param	displayHSize is Horizontal size of video in pixels
+ * @param   displayVSize is Vertical size of video in pixels
+ * @param	imageHSize is Horizontal size of image in pixels
+ * @param   imageVSize is Vertical size of image in pixels
+ * @param   hOffset is horizontal position in the video frame where image should be displayed
+ * @param   vOffset is vertical position in the video frame where image should be displayed
+ * @param   imagePointer pointer to the image buffer
+ * @return
+ * 		-  0 if successfully copied
+ * 		- -1 if copying failed
+ *****************************************************************************/
+int drawImage(u32 displayHSize,u32 displayVSize,u32 imageHSize,u32 imageVSize,u32 hOffset, u32 vOffset,int numColors,char *imagePointer,char *videoFramePointer){
+	Xil_DCacheInvalidateRange((u32)imagePointer,(imageHSize*imageVSize));
+	for(int i=0;i<displayVSize;i++){
+		for(int j=0;j<displayHSize;j++){
+			if(i<vOffset || i >= vOffset+imageVSize){
+				videoFramePointer[(i*displayHSize*3)+(j*3)]   = 0xff;
+				videoFramePointer[(i*displayHSize*3)+(j*3)+1] = 0xff;
+				videoFramePointer[(i*displayHSize*3)+(j*3)+2] = 0xff;
+			}
+			else if(j<hOffset || j >= hOffset+imageHSize){
+				videoFramePointer[(i*displayHSize*3)+(j*3)]   = 0xff;
+				videoFramePointer[(i*displayHSize*3)+(j*3)+1] = 0xff;
+				videoFramePointer[(i*displayHSize*3)+(j*3)+2] = 0xff;
+			}
+			else {
+				if(numColors==1){
+					videoFramePointer[(i*displayHSize*3)+j*3]     = *imagePointer;
+					videoFramePointer[(i*displayHSize*3)+(j*3)+1] = *imagePointer;
+					videoFramePointer[(i*displayHSize*3)+(j*3)+2] = *imagePointer;
+					imagePointer++;
+				}
+				else if(numColors==3){
+					videoFramePointer[(i*displayHSize*3)+j*3]     = *imagePointer;
+					videoFramePointer[(i*displayHSize*3)+(j*3)+1] = *(imagePointer++);
+					videoFramePointer[(i*displayHSize*3)+(j*3)+2] = *(imagePointer++);
+					imagePointer++;
+				}
+			}
+		}
+	}
+	Xil_DCacheFlush();
+	return 0;
+}
+
+/*****************************************************************************/
+/**
+ * This function initializes the DMA Controller and interrupts for Image Processing
+ *
+ * @param	imgProcess is a pointer to ImageProcess instance
+ * @param   axiDmaBaseAddress base address for DMA Controller
+ * @param	Intc Pointer to interrupt controller
+ * 		-  0 if successfully initialized
+ * 		- -1 DMA initialization failed
+ * 		- -2 Interrupt setup failed
+ *****************************************************************************/
+int initDma(XAxiDma *myDma, u32 axiDmaBaseAddress) {
+    int status;
+    XAxiDma_Config *myDmaConfig;
+
+    myDmaConfig = XAxiDma_LookupConfigBaseAddr(axiDmaBaseAddress);
+    status = XAxiDma_CfgInitialize(myDma, myDmaConfig);
+    if (status != XST_SUCCESS) {
+        xil_printf("DMA initialization failed with status %d\n", status);
+        return -1;
+    }
+
+    XAxiDma_IntrEnable(myDma, XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
+    return 0;
+}
+
+int initInterrupt(XScuGic *Intc, u32 interruptId, Xil_InterruptHandler handler, void *callbackRef, u8 priority, u8 triggerType) {
+    int status;
+
+    XScuGic_SetPriorityTriggerType(Intc, interruptId, priority, triggerType);
+    status = XScuGic_Connect(Intc, interruptId, handler, callbackRef);
+    if (status != XST_SUCCESS) {
+        xil_printf("Interrupt connection failed for interrupt ID %d\n", interruptId);
+        return -2;
+    }
+    XScuGic_Enable(Intc, interruptId);
+
+    return 0;
+}
+
+int initImgProcessSystem(imgProcess *imgProcessInstance, u32 axiDmaBaseAddress, XScuGic *Intc) {
+    int status;
+
+    XAxiDma *myDma = (XAxiDma *)malloc(sizeof(XAxiDma));
+    if (myDma == NULL) {
+        xil_printf("DMA allocation failed\n");
+        return -1;
+    }
+
+    status = initDma(myDma, axiDmaBaseAddress);
+    if (status != 0) {
+        free(myDma);
+        return status;
+    }
+    imgProcessInstance->DmaCtrlPointer = myDma;
+
+    status = initInterrupt(Intc, XPAR_FABRIC_GAUSSIAN_0_O_INTR_INTR, (Xil_InterruptHandler)ImageProcISR, (void *)imgProcessInstance, 0xA0, 3);
+    if (status != 0) {
+        free(myDma);
+        return status;
+    }
+
+    status = initInterrupt(Intc, O_BUSY_0_INTR, (Xil_InterruptHandler)FilterBusyISR, (void *)imgProcessInstance, 0xA1, 2);
+    if (status != 0) {
+        free(myDma);
+        return status;
+    }
+
+    status = initInterrupt(Intc, XPAR_FABRIC_AXI_DMA_0_S2MM_INTROUT_INTR, (Xil_InterruptHandler)dmaReceiveISR, (void *)imgProcessInstance, 0xA2, 3);
+    if (status != 0) {
+        free(myDma);
+        return status;
+    }
+
+    imgProcessInstance->IntrCtrlPointer = Intc;
+    imgProcessInstance->done = 0;
+
+    return 0;
+}
+
+int startImageProcessing(imgProcess *imgProcessInstance){
+	int status;
+
+    lineCounter=6;
+	status = XAxiDma_SimpleTransfer(imgProcessInstance->DmaCtrlPointer,(u32)imgProcessInstance->filteredImageDataPointer,(imgProcessInstance->imageHSize-2)*(imgProcessInstance->imageVSize-2),XAXIDMA_DEVICE_TO_DMA);
+	if(status != XST_SUCCESS){
+		xil_printf("DMA Receive Failed with Status %d\n",status);
+		return -1;
+	}
+	status = XAxiDma_SimpleTransfer(imgProcessInstance->DmaCtrlPointer,(u32)imgProcessInstance->imageDataPointer, (lineCounter)*(imgProcessInstance->imageVSize),XAXIDMA_DMA_TO_DEVICE);
+	if(status != XST_SUCCESS){
+		xil_printf("DMA Transfer failed with Status %d\n",status);
+		return -1;
+	}
+
+	return 0;
+}
+
+
+static void dmaReceiveISR(void *CallBackRef){
+	XAxiDma_IntrDisable((XAxiDma *)(((imgProcess*)CallBackRef)->DmaCtrlPointer), XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
+	XAxiDma_IntrAckIrq((XAxiDma *)(((imgProcess*)CallBackRef)->DmaCtrlPointer), XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
+	((imgProcess*)CallBackRef)->done=1;
+	XAxiDma_IntrEnable((XAxiDma *)(((imgProcess*)CallBackRef)->DmaCtrlPointer), XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
+}
+
+u32 checkIdle(u32 baseAddress,u32 offset){
+	u32 status;
+	status = (XAxiDma_ReadReg(baseAddress,offset))&XAXIDMA_IDLE_MASK;
+	return status;
+}
+
+static void ImageProcISR(void *CallBackRef){
+	int status;
+	XScuGic_Disable(((imgProcess*)CallBackRef)->IntrCtrlPointer,XPAR_FABRIC_GAUSSIAN_0_O_INTR_INTR);
+	status = checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x4);
+	while(status == 0) status = checkIdle(XPAR_AXI_DMA_0_BASEADDR,0x4);
+	if(lineCounter<(IMAGE_V_SIZE)){
+		status = XAxiDma_SimpleTransfer(((imgProcess*)CallBackRef)->DmaCtrlPointer,(u32)(((imgProcess*)CallBackRef)->imageDataPointer)+lineCounter*((imgProcess*)CallBackRef)->imageHSize,((imgProcess*)CallBackRef)->imageHSize,XAXIDMA_DMA_TO_DEVICE);
+		if (status != XST_SUCCESS) {
+		    xil_printf("DMA Receive Failed with Status %d\n", status);
+		    return;
+		}
+
+		lineCounter++;
+	}else{
+		//usleep(100);
+	}
+	XScuGic_Enable(((imgProcess*)CallBackRef)->IntrCtrlPointer,XPAR_FABRIC_GAUSSIAN_0_O_INTR_INTR);
+}
+
+
+static void FilterBusyISR(void *CallBackRef){
+	XScuGic_Disable(((imgProcess*)CallBackRef)->IntrCtrlPointer,O_BUSY_0_INTR);
+	((imgProcess*)CallBackRef)->done=1;
+	XScuGic_Enable(((imgProcess*)CallBackRef)->IntrCtrlPointer,O_BUSY_0_INTR);
+}
